@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff6600;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-inicio {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px; /* Espaciado interno */
+    background-color: #3498db; /* Fondo */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Asegura que el enlace sea como un botón */
+}
+  
+.btn-inicio:hover {
+    background-color: #2ecc71; /* Cambia el color de fondo al pasar el cursor */
+    color: #ffffff; /* Asegura que el texto permanezca visible */
+}
+
+button {
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+
+  
