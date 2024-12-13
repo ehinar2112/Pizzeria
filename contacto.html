@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzería La Delicia</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf5e6;
+            color: #333;
+        }
+
+        /* Barra de navegación */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ff7f50; /* Naranja */
+            padding: 10px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #ffa07a; /* Naranja más claro */
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            color: white;
+        }
+
+        /* Contenedor principal */
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h1 {
+            text-align: center;
+            color: #32cd32; /* Verde */
+        }
+
+        .container p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .contact-details {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f0fff0; /* Verde muy claro */
+            border: 2px solid #32cd32; /* Verde */
+            border-radius: 8px;
+        }
+
+        .contact-details h2 {
+            color: #ff7f50; /* Naranja */
+        }
+
+        .contact-details ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-details li {
+            margin-bottom: 10px;
+        }
+
+        /* Botones */
+        .btn {
+            display: inline-block;
+            background-color: #32cd32;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #228b22; /* Verde más oscuro */
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <div class="logo">Pizzería La Delicia</div>
+        <div>
+            <a href="#">Inicio</a>
+            <a href="#">Cerrar Sesión</a>
+        </div>
+    </div>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <h1>¡Bienvenido a Pizzería La Delicia!</h1>
+        <p>Disfruta de las mejores pizzas artesanales de la ciudad, hechas con amor y los ingredientes más frescos. ¡Contáctanos para pedidos o visita nuestro local!</p>
+
+        <div class="contact-details">
+            <h2>Datos de contacto</h2>
+            <ul>
+                <li><strong>Dirección:</strong> Calle Ficticia 123, Ciudad Ejemplo</li>
+                <li><strong>Teléfono:</strong> +34 123 456 789</li>
+                <li><strong>Email:</strong> contacto@pizzerialadelicia.com</li>
+                <li><strong>Horario:</strong> Lunes a Domingo, 12:00 PM - 11:00 PM</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
